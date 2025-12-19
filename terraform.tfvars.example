@@ -4,6 +4,7 @@ project_name = "ochi-de-vultur"
 vpc_cidr     = "10.0.0.0/16"
 public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
 owner        = "devops-team"
+availability_zones = ["eu-north-1a", "eu-north-1b"]
 tags = {
   Project     = "ochi-de-vultur"
   Environment = "production"

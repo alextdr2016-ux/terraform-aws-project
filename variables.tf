@@ -42,3 +42,9 @@ variable "tags" {
   }
   description = "Tag-uri implicite pentru resurse"
 }
+
+variable "availability_zones" {
+  type        = list(string)
+  default     = ["eu-north-1a", "eu-north-1b"]
+  description = "Lista cu Availability Zones"
+}
